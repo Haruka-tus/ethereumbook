@@ -20,11 +20,17 @@ The Ethereum platform enables developers to build powerful decentralized applica
 
 > a Byzantine fault tolerant：要求が正しく伝わらない場合でも、過半数が正しく動作すれば全体としては正しく動作するシステム
 
+> consensus algorithm：どのマイナーの処理結果が正しいか判断するアルゴリズム
+
+> digital signatures：電子文書の正当性を保証するためにつけられる暗号化された署名情報
+
 Yet in many ways, both the purpose and construction of Ethereum are strikingly different from those of the open blockchains that preceded it, including Bitcoin.
 
 ((("Ethereum (generally)","purpose of")))Ethereum's purpose is not primarily to be a digital currency payment network. ((("utility currency, ether as")))While the digital currency ether is both integral to and necessary for the operation of Ethereum, ether is intended as a _utility currency_ to pay for use of the Ethereum platform as the world computer.
 
 Unlike Bitcoin, which has a very limited scripting language, Ethereum is designed to be a general-purpose programmable blockchain that runs a _virtual machine_ capable of executing code of arbitrary and unbounded complexity. Where Bitcoin's Script language is, intentionally, constrained to simple true/false evaluation of spending conditions, Ethereum's language is _Turing complete_, meaning that Ethereum can straightforwardly function as a general-purpose computer.
+
+> Turing complete：他のチューリングマシンが計算可能な全ての計算を行う能力をもつ計算モデル
 
 [[blockchain_components]]
 === Components of a Blockchain
