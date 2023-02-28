@@ -209,6 +209,8 @@ Ethereum's groundbreaking innovation is to combine the general-purpose computing
 
 However, Turing completeness is very dangerous, particularly in open access systems like public blockchains, because of the halting problem we touched on earlier. For example, modern printers are Turing complete and can be given files to print that send them into a frozen state. The fact that Ethereum is Turing complete means that any program of any complexity can be computed by Ethereum. But that flexibility brings some thorny security and resource management problems. An unresponsive printer can be turned off and turned back on again. That is not possible with a public blockchain.
 
+> halting problem（停止性問題）：あるチューチューリングマシンと入力が与えられ、その入力を与えられたチューリングマシンは停止するか判断する
+
 [[turing_completeness_implications]]
 ==== Implications of Turing Completeness
 
@@ -220,6 +222,8 @@ The next question is, 'how does one get gas to pay for computation on the Ethere
 
 [[DApp]]
 === From General-Purpose Blockchains to Decentralized Applications (DApps)
+
+> DApps：スマートコントラストを応用したもの
 
 ((("DApps (decentralized applications)","Ethereum as platform for")))((("Ethereum (generally)","DApps and")))Ethereum started as a way to make a general-purpose blockchain that could be programmed for a variety of uses. But very quickly, Ethereum's vision expanded to become a platform for programming DApps. DApps represent a broader perspective than smart contracts. A DApp is, at the very least, a smart contract and a web user interface. More broadly, a DApp is a web application that is built on top of open, decentralized, peer-to-peer infrastructure services.
 
