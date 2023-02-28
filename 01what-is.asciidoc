@@ -16,7 +16,7 @@ The Ethereum platform enables developers to build powerful decentralized applica
 
 ((("Bitcoin","Ethereum compared to")))((("Ethereum (generally)","Bitcoin compared to")))Many people will come to Ethereum with some prior experience of cryptocurrencies, specifically Bitcoin. Ethereum shares many common elements with other open blockchains: a peer-to-peer network connecting participants, a Byzantine fault&#x2013;tolerant consensus algorithm for synchronization of state updates (a proof-of-work blockchain), the use of cryptographic primitives such as digital signatures and hashes, and a digital currency (ether).
 
-> a peer-to-peer network:
+> a peer-to-peer network：ビットコインネットワークに参加しているノードが対等に通信して情報を共有しあうこと
 
 Yet in many ways, both the purpose and construction of Ethereum are strikingly different from those of the open blockchains that preceded it, including Bitcoin.
 
