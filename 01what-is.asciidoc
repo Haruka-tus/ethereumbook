@@ -223,7 +223,7 @@ The next question is, 'how does one get gas to pay for computation on the Ethere
 [[DApp]]
 === From General-Purpose Blockchains to Decentralized Applications (DApps)
 
-> DApps：スマートコントラストを応用したもの
+> DApps：ブロックチェーンを利用したアプリの総称
 
 ((("DApps (decentralized applications)","Ethereum as platform for")))((("Ethereum (generally)","DApps and")))Ethereum started as a way to make a general-purpose blockchain that could be programmed for a variety of uses. But very quickly, Ethereum's vision expanded to become a platform for programming DApps. DApps represent a broader perspective than smart contracts. A DApp is, at the very least, a smart contract and a web user interface. More broadly, a DApp is a web application that is built on top of open, decentralized, peer-to-peer infrastructure services.
 
